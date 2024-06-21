@@ -28,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D05820E2C2607BB00E94489 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7D05820F2C2607BB00E94489 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D4CD18F2C25C4AA006B2AC1 /* CLox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLox; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CD1922C25C4AA006B2AC1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7D4CD1992C25C4FD006B2AC1 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
@@ -41,9 +43,6 @@
 		7D4CD1A42C25CE66006B2AC1 /* value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 		7D4CD1A62C25D47A006B2AC1 /* vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vm.h; sourceTree = "<group>"; };
 		7D4CD1A72C25D47A006B2AC1 /* vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
-		7DEE8E9E2C25E49500842217 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7DEE8E9F2C25E4AA00842217 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		7DEE8EA02C25E67500842217 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +59,8 @@
 		7D4CD1862C25C4AA006B2AC1 = {
 			isa = PBXGroup;
 			children = (
-				7DEE8EA02C25E67500842217 /* LICENSE */,
-				7DEE8E9E2C25E49500842217 /* README.md */,
-				7DEE8E9F2C25E4AA00842217 /* .gitignore */,
+				7D05820E2C2607BB00E94489 /* LICENSE */,
+				7D05820F2C2607BB00E94489 /* README.md */,
 				7D4CD1912C25C4AA006B2AC1 /* CLox */,
 				7D4CD1902C25C4AA006B2AC1 /* Products */,
 			);
